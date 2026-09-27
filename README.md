@@ -165,6 +165,38 @@ The dashboard provides visibility into:
 
 Configured a **Databricks Supervisor Agent** with access to the Unity Catalog financial transaction table.
 
+## Project Results
+
+- Processed **100K+ financial transactions** using PySpark and Delta Lake.
+- Implemented data-quality validation for nulls, duplicates, invalid statuses, and negative amounts.
+- Implemented incremental processing using **Delta Lake MERGE** for daily transaction updates.
+- Created Gold-layer financial KPIs for business analysis.
+- Automated the data pipeline using **Databricks Jobs**.
+- Organized data assets using **Unity Catalog**.
+- Built a Databricks SQL dashboard for financial KPI analysis.
+- Configured a **Supervisor Agent** to query structured financial data using natural language.
+
+## Key Databricks Concepts Demonstrated
+
+- Bronze-Silver-Gold architecture
+- Delta Lake
+- Delta MERGE
+- PySpark transformations
+- Data quality validation
+- Incremental data processing
+- Unity Catalog
+- Databricks Jobs
+- Job scheduling
+- Databricks SQL
+- Supervisor Agents
+- Natural-language querying
+
+## Project Limitations
+
+The financial dataset used in this project is synthetic and was created for learning and demonstration purposes.
+
+Document-based RAG was explored conceptually and through Databricks Knowledge Assistant configuration. The workspace's managed embedding service was unavailable, so a fully functional document-retrieval workflow was not included as a completed implementation.
+
 The agent allows users to ask questions in natural language instead of writing SQL.
 
 Example:
