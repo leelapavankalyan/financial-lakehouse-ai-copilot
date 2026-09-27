@@ -17,6 +17,7 @@ Financial transaction data needs to be:
 This project demonstrates how Databricks can be used to build a complete financial data pipeline and an AI-powered interface on top of the processed data.
 ## Architecture
 
+```text
 Financial Transaction Data
           │
           ▼
@@ -31,7 +32,7 @@ Financial Transaction Data
  Cleaned & Validated Data
           │
           ▼
-   Delta MERGE
+     Delta MERGE
  Incremental Processing
           │
           ▼
@@ -41,13 +42,15 @@ Financial Transaction Data
           ├──────────────► Databricks SQL Dashboard
           │
           ▼
-   Unity Catalog
+     Unity Catalog
           │
           ▼
-  Supervisor Agent
+   Supervisor Agent
           │
           ▼
-Natural Language Queries\
+Natural Language Queries
+```
+
 
 **Technology Stack**
 Databricks
