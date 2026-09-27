@@ -204,3 +204,24 @@ Example:
 > How many transactions does customer 104 have?
 
 The agent can query the structured financial data and return the relevant result.
+
+## Project Screenshots
+
+### Financial Transaction Dashboard
+
+Country-wise transaction analysis showing total transaction amount by country.
+
+![Financial Transaction Dashboard](dashboard.png)
+
+### Databricks Job
+
+Financial data pipeline executed using Databricks Jobs.
+
+![Databricks Job](databricks-job.png)
+
+### Supervisor Agent
+
+Natural-language querying of financial transaction data using a Databricks Supervisor Agent.
+
+![Supervisor Agent](supervisor-agent.png)
+
