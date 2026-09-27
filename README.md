@@ -167,6 +167,24 @@ The dashboard provides visibility into:
 ### 8. AI Copilot
 
 Configured a **Databricks Supervisor Agent** with access to the Unity Catalog financial transaction table.
+## Project Notebook
+
+### Financial Transaction Pipeline
+
+The main Databricks notebook contains the complete financial lakehouse pipeline:
+
+* Financial transaction data generation
+* Bronze Delta layer
+* Data-quality validation
+* Silver data cleaning and validation
+* Day-2 incremental data processing
+* Delta Lake MERGE for inserts and updates
+* Gold-layer country KPIs
+* Gold-layer product KPIs
+
+[View `financial_transaction_pipeline.py`](notebooks/financial_transaction_pipeline.py)
+
+
 
 ## Project Results
 
