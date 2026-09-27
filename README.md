@@ -15,3 +15,45 @@ Financial transaction data needs to be:
 - Accessible to users without requiring them to write SQL queries
 
 This project demonstrates how Databricks can be used to build a complete financial data pipeline and an AI-powered interface on top of the processed data.
+## Architecture
+
+Financial Transaction Data
+          │
+          ▼
+    Bronze Layer
+   Raw Delta Table
+          │
+          ▼
+   Data Quality Checks
+          │
+          ▼
+    Silver Layer
+ Cleaned & Validated Data
+          │
+          ▼
+   Delta MERGE
+ Incremental Processing
+          │
+          ▼
+     Gold Layer
+   Business KPIs
+          │
+          ├──────────────► Databricks SQL Dashboard
+          │
+          ▼
+   Unity Catalog
+          │
+          ▼
+  Supervisor Agent
+          │
+          ▼
+Natural Language Queries\
+
+**Technology Stack**
+Databricks
+PySpark
+Delta Lake
+Unity Catalog
+Databricks Jobs
+Databricks SQL
+Supervisor Agent
